@@ -6,7 +6,7 @@ namespace DatingApp.API.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            /* migrationBuilder.CreateTable(
+            migrationBuilder.CreateTable(
                 name: "Values",
                 columns: table => new
                 {
@@ -17,7 +17,7 @@ namespace DatingApp.API.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Values", x => x.Id);
-                }); */
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
